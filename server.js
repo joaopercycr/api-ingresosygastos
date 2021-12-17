@@ -9,6 +9,6 @@ console.log('server running')*/
 
 const express = require('express')
 const app = express()
-app.get('/', (req, res) => res.send('Heloo word with express'))
+app.get('/', (req, res) => res.send('<h1>Hola Joao</h1>'))
 app.listen(3000)
 console.log('express execute')
