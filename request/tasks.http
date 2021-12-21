@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/v1/tasks
+
+###
+POST http://localhost:3000/v1/tasks
+Content-Type: application/json
+
+{
+    "nombre": "Nancy",
+    "apellido": "Andi Rodriguez",
+    "edad": 41,
+    "activo": true
+}
