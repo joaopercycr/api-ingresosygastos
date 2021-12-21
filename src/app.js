@@ -3,7 +3,7 @@ import TaskRoutes from './routes/tasksRoutes'
 const app = express();
 
 //setting
-app.set('port', process.env.PORT || 3000)
+app.set('port', 3000)
 
 app.use(express.json())
 
